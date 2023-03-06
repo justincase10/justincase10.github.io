@@ -114,7 +114,7 @@ video {
   }
 }
 
-@media (min-width: 920 px) {
+@media (min-width: 920px) {
   .hero-heading {
     font-size: 6rem;
     line-height: 6rem;
