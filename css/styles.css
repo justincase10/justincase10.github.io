@@ -19,7 +19,6 @@ body {
   padding: 0;
   min-height: 100%;
   max-width: 100%;
-  padding-bottom: 6rem;
 }
 
 *,
@@ -303,6 +302,131 @@ video {
   scroll-margin-top: 9rem;
 }
 
+/* Styling for Photo Addon */
+
+.photo-addon-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 1rem auto 0 auto;
+}
+
+body.addon {
+  margin: 0 auto;
+  background-color: black;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.card-group,
+.card {
+  aspect-ratio: 5 / 7;
+}
+
+.card-group,
+.big-card {
+  width: 30vmin;
+}
+
+.card {
+  margin: 2.5rem 16rem 0 10.5rem; /* DOUBLE CHECK THIS LATER */
+  aspect-ratio: 5 / 7;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 1vmin;
+  position: absolute;
+  transition: transform 800ms cubic-bezier(0.05, 0.43, 0.25, 0.95);
+}
+
+.big-card {
+  width: 30vmin;
+}
+
+.little-card {
+  width: 12vmin;
+  margin: 10rem 15.5rem;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.big-card:nth-child(2) {
+  background-image: url("/justincase10.github.io/img/justin-corral-sunrise-rosario-washington-photograph.jpg");
+  transform: translateX(-10%) rotate(-1deg);
+}
+
+.big-card:nth-child(4) {
+  background-image: url("/justincase10.github.io/img/justin-corral-valencia-city-center-photograph.jpg");
+  transform: rotate(2deg);
+}
+
+.big-card:nth-child(6) {
+  background-image: url("/justincase10.github.io/img/justin-corral-clouds-milo-oregon-photograph.jpg");
+  transform: translateX(-6%) rotate(-3deg);
+}
+
+.big-card:nth-child(8) {
+  background-image: url("/justincase10.github.io/img/justin-corral-german-shepard-walla-walla-photograph.jpg");
+  transform: translate(10%, 3%) rotate(5deg);
+}
+
+.little-card:nth-child(1) {
+  background-image: url("/justincase10.github.io/img/justin-corral-valencia-trees-in-street-spain-photograph.jpg");
+  transform: translateX(-10%) rotate(-1deg);
+}
+
+.little-card:nth-child(3) {
+  background-image: url("/justincase10.github.io/img/justin-corral-building-sunset-sagunto-spain-photograph.jpg");
+  transform: rotate(2deg);
+}
+
+.little-card:nth-child(5) {
+  background-image: url("/justincase10.github.io/img/justin-corral-falla-valencia-spain-photograph.jpg");
+  transform: translateX(-6%) rotate(-3deg);
+}
+
+.little-card:nth-child(7) {
+  background-image: url("/justincase10.github.io/img/justin-corral-valencia-buiding-spain-photograph.jpg");
+  transform: translate(10%, 3%) rotate(5deg);
+}
+
+.card-group:hover > .big-card:nth-child(2) {
+  transform: translate(-75%, 16%) rotate(-24deg);
+}
+
+.card-group:hover > .big-card:nth-child(4) {
+  transform: translate(-25%, 8%) rotate(-8deg);
+}
+
+.card-group:hover > .big-card:nth-child(6) {
+  transform: translate(25%, 8%) rotate(8deg);
+}
+
+.card-group:hover > .big-card:nth-child(8) {
+  transform: translate(75%, 16%) rotate(24deg);
+}
+
+.card-group:hover > .little-card:nth-child(1) {
+  transform: translate(190%, -150%) rotate(-15deg);
+}
+
+.card-group:hover > .little-card:nth-child(3) {
+  transform: translate(150%, 160%) rotate(15deg);
+}
+
+.card-group:hover > .little-card:nth-child(5) {
+  transform: translate(-190%, -160%) rotate(15deg);
+}
+
+.card-group:hover > .little-card:nth-child(7) {
+  transform: translate(-270%, 130%) rotate(-15deg);
+}
+
+.Photo-addon-text {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 8rem;
+}
+
 /* Add Media Queries for Large Screens */
 
 @media (min-width: 600px) {
@@ -351,6 +475,14 @@ video {
   .section-stop {
     scroll-margin-top: 10rem;
   }
+
+  .photo-addon-container {
+    padding: 5rem 16rem 0 10rem;
+  }
+
+  .Photo-addon-text {
+    padding: 10rem 0 5rem 0;
+  }
 }
 
 @media (min-width: 920px) {
@@ -380,7 +512,7 @@ video {
 
   .nav-bar {
     justify-content: space-between;
-    padding: 2rem 5rem;
+    padding: 2rem 5rem 1rem 5rem;
     line-height: 1rem;
     height: 9rem;
   }
@@ -396,5 +528,13 @@ video {
 
   .top-nav {
     width: 100%;
+  }
+
+  .photo-addon-container {
+    padding: 0 5rem 5rem 30rem;
+  }
+
+  .Photo-addon-text {
+    padding: 4rem 0 2rem 0;
   }
 }
