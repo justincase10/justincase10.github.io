@@ -329,7 +329,7 @@ body.addon {
 }
 
 .card {
-  margin: 2.5rem 7.5rem 0; /* DOUBLE CHECK THIS LATER */
+  margin: 2.5rem 7.5rem 0;
   aspect-ratio: 5 / 7;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 1vmin;
