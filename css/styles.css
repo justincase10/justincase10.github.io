@@ -349,42 +349,42 @@ body.addon {
 }
 
 .big-card:nth-child(2) {
-  background-image: url("/justincase10.github.io/img/justin-corral-sunrise-rosario-washington-photograph.jpg");
+  background-image: url("https://lh3.googleusercontent.com/pw/AMWts8B9E_fsXUegctct1uz8_mAgFeJnQcRZfxDcVJvu0ySxRiPUnkagWD0HyFBxuXcmBAyXAtScCcUaTTLwke4FeRfjIOrJMrb4nQ2D-Gm-1x3DzbthG2xUtp310r17xLKEFb685iVy0uDI4rEIsQBdfbIC5A=w416-h312-s-no?authuser=0");
   transform: translateX(-10%) rotate(-1deg);
 }
 
 .big-card:nth-child(4) {
-  background-image: url("/justincase10.github.io/img/justin-corral-valencia-city-center-photograph.jpg");
+  background-image: url("https://lh3.googleusercontent.com/pw/AMWts8AbN8vJV7TEVCIL3sea60nJY8wJ0goyMTzK1aiW_nqEipK-h7OhgM9bA1Ni-XAm-RkJptjpqOdIZvMmT_WgIdjTaUG2fniSo71MHm_6i9ydpw8jkhNUolHkMRyMiPhfQ6ZpNnqSBegjmwvxf6f3OHDs1g=w625-h351-s-no?authuser=0");
   transform: rotate(2deg);
 }
 
 .big-card:nth-child(6) {
-  background-image: url("/justincase10.github.io/img/justin-corral-clouds-milo-oregon-photograph.jpg");
+  background-image: url("https://lh3.googleusercontent.com/pw/AMWts8AX2m5syMjOlFNGLlcYqq5om2JKgngfjYg9pq_Uba3BZRhRr4qkca03_YRSzdTB1cO9wgbDnF1nF9i3rdH0225U0gUwp96nC1_yU7WXmN3VqGdlOn2ed7PGqWFMoK50xruwhVwRW2wNr71SQfO2pDLisA=w236-h387-s-no?authuser=0");
   transform: translateX(-6%) rotate(-3deg);
 }
 
 .big-card:nth-child(8) {
-  background-image: url("/justincase10.github.io/img/justin-corral-german-shepard-walla-walla-photograph.jpg");
+  background-image: url("https://lh3.googleusercontent.com/pw/AMWts8BUYZ0JgZa2CrcMzLC2-hBxjhgGZ3H7aOa43ro2vCh0lKISP5zC2Oi2_p_NiF2hPrBUOKC4h6kQFWnuy5LWqeT0sONxSIdRSOWhs7e3eJ7vhq_-Bp-bzSgArbFkdaP4Ss1f8LARPsd35bBwliC92Xu6CA=w271-h338-s-no?authuser=0");
   transform: translate(10%, 3%) rotate(5deg);
 }
 
 .little-card:nth-child(1) {
-  background-image: url("/justincase10.github.io/img/justin-corral-valencia-trees-in-street-spain-photograph.jpg");
+  background-image: url("https://lh3.googleusercontent.com/pw/AMWts8D0uxHlv3SBmi_4qSprg4ZxQROwWLVckD2S3t7U6YgStFbO243qgk9EFzG75Ynw7MN4QiSYT6WxteJoSAA20LmfsCjlJe2bn3-G7xarFPEA_vS1AYKJRehYgv4EmWkt-oP9pfAEzFFjWnoF0J0Kz838gA=w400-h225-s-no?authuser=0");
   transform: translateX(-10%) rotate(-1deg);
 }
 
 .little-card:nth-child(3) {
-  background-image: url("/justincase10.github.io/img/justin-corral-building-sunset-sagunto-spain-photograph.jpg");
+  background-image: url("https://lh3.googleusercontent.com/pw/AMWts8A_DDYyp3MUsREIyOp6C9eObH4JxUGXmZRJ6A5EJJjDLCmcYlc-t-SS_t9NmhCod3HMsvqhjNb35qyImJ-kDDnhwhiPxISKKK4JkdiOFmxrdbEG4BvWVx8iJfTNMBEbGBhFcCX2f9xPi9o732PV0MNVTg=w403-h226-s-no?authuser=0");
   transform: rotate(2deg);
 }
 
 .little-card:nth-child(5) {
-  background-image: url("/justincase10.github.io/img/justin-corral-falla-valencia-spain-photograph.jpg");
+  background-image: url("https://lh3.googleusercontent.com/pw/AMWts8Cl9fpxQiWgGFbmHoz2rN285H9jkrNs3RGY8f_UP4ASCO308F5gngZ5dK_vPf2fyIez_tcE1FBZcGpfAc3KH-VjxWo4YW_8-_jvBgxcs--U4_pXplQ_1qfCJIWv4bPKck_IAXL0nSCjfcUMMBhtCs-9zw=w400-h225-s-no?authuser=0");
   transform: translateX(-6%) rotate(-3deg);
 }
 
 .little-card:nth-child(7) {
-  background-image: url("/justincase10.github.io/img/justin-corral-valencia-buiding-spain-photograph.jpg");
+  background-image: url("https://lh3.googleusercontent.com/pw/AMWts8BElPQiPtYWkPmO5csWYsA9ZdkEgt58jGloUspqBWBN0vAwG53K58uSQBcXzTZ6IABH30TTh4mvpqAv-4nzUol58937vbd6PHZaS-FjTHapRcgwT3XTixQpXqydfAS7P3IiR-CDtPtalkcVf45ondo1vg=w403-h226-s-no?authuser=0");
   transform: translate(10%, 3%) rotate(5deg);
 }
 
