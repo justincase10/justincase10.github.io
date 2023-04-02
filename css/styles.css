@@ -329,7 +329,7 @@ body.addon {
 }
 
 .card {
-  margin: 2.5rem 16rem 0 10.5rem; /* DOUBLE CHECK THIS LATER */
+  margin: 2.5rem 7.5rem 0; /* DOUBLE CHECK THIS LATER */
   aspect-ratio: 5 / 7;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 1vmin;
@@ -343,7 +343,7 @@ body.addon {
 
 .little-card {
   width: 12vmin;
-  margin: 10rem 15.5rem;
+  margin: 5rem 8rem 0;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.1);
 }
