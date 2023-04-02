@@ -343,7 +343,7 @@ body.addon {
 
 .little-card {
   width: 12vmin;
-  margin: 5rem 8rem 0;
+  margin: 5rem 9rem 0;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.1);
 }
@@ -421,10 +421,10 @@ body.addon {
 }
 
 .Photo-addon-text {
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
   line-height: 1.5rem;
-  padding: 8rem;
+  padding: 5rem;
 }
 
 /* Add Media Queries for Large Screens */
